@@ -1,0 +1,14 @@
+/* Importaciones de PrimeReact */
+@import 'primereact/resources/themes/saga-blue/theme.css'; /* Tema */
+@import 'primereact/resources/primereact.min.css'; /* Estilos principales */
+@import 'primeicons/primeicons.css'; /* Iconos */
+
+/* Directivas de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-galleria-thumbnail-container {
+    background-color: white !important;
+    padding: 10px !important;
+}
